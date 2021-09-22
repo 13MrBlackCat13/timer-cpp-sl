@@ -7,11 +7,11 @@ int main() {
     timer++;
     while(timer--) {
         if (timer != 0){
-        if(timer % 5 != 0){
-            cout << timer << endl;
-        } else {
-            cout << timer << endl;
-            cout << "Beep" << endl;
+            if(timer % 5 != 0){
+                cout << timer << endl;
+            } else {
+                cout << timer << endl;
+                cout << "Beep" << endl;
         }
             }else {
             return 0;
